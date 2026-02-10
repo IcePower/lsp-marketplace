@@ -1,0 +1,13 @@
+{
+  "name": "lsp-marketplace",
+  "owner": {
+    "name": "IcePower"
+  },
+  "plugins": [
+    {
+      "name": "csharp-roslyn-lsp",
+      "source": "./plugins/csharp-roslyn-lsp",
+      "description": "C# language support via roslyn-language-server"
+    }
+  ]
+}

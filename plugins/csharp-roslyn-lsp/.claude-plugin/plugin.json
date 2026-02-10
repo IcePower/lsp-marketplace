@@ -1,0 +1,15 @@
+{
+  "name": "csharp-roslyn-lsp",
+  "description": "C# language support via roslyn-language-server",
+  "version": "1.0.0",
+  "lspServers": {
+    "csharp": {
+      "command": "roslyn-language-server.cmd",
+      "args": ["--stdio", "--autoLoadProjects"],
+      "extensionToLanguage": {
+        ".cs": "csharp",
+        ".csx": "csharp"
+      }
+    }
+  }
+}
