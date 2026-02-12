@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "lspServers": {
     "csharp": {
-      "command": "roslyn-language-server.cmd",
+      "command": "roslyn-language-server",
       "args": ["--stdio", "--autoLoadProjects"],
       "extensionToLanguage": {
         ".cs": "csharp",
