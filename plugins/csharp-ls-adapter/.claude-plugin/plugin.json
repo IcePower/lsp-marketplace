@@ -3,10 +3,12 @@
   "description": "C# language support via csharp-ls-adapter",
   "version": "1.0.0",
   "lspServers":{
-    "command": "csharp-ls-adapter",
-    "extensionToLanguage": {
-      ".cs": "csharp",
-      ".csx": "csharp"
+    "csharp": {
+      "command": "csharp-ls-adapter",
+      "extensionToLanguage": {
+        ".cs": "csharp",
+        ".csx": "csharp"
+      }
     }
   }
 }
