@@ -11,7 +11,7 @@
     },
     {
       "name": "csharp-ls-adapter",
-      "source": "./csharp-ls-adapter",
+      "source": "./plugins/csharp-ls-adapter",
       "description": "C# language support via csharp-ls-adapter"
     }
   ]
